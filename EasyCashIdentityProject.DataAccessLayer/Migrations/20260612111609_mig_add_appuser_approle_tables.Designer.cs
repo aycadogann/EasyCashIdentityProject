@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EasyCashIdentityProject.DataAccessLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20260612110152_mig_add_appuser_approle_tables")]
+    [Migration("20260612111609_mig_add_appuser_approle_tables")]
     partial class mig_add_appuser_approle_tables
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
