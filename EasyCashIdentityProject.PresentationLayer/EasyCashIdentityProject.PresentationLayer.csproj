@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\gentela-gh-pages\**" />
+    <Compile Remove="wwwroot\gentelella-gh-pages\**" />
+    <Content Remove="wwwroot\gentela-gh-pages\**" />
+    <Content Remove="wwwroot\gentelella-gh-pages\**" />
+    <EmbeddedResource Remove="wwwroot\gentela-gh-pages\**" />
+    <EmbeddedResource Remove="wwwroot\gentelella-gh-pages\**" />
+    <None Remove="wwwroot\gentela-gh-pages\**" />
+    <None Remove="wwwroot\gentelella-gh-pages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.16" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.16" />
