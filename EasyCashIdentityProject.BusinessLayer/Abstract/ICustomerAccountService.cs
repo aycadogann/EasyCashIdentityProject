@@ -9,5 +9,6 @@ namespace EasyCashIdentityProject.BusinessLayer.Abstract
 {
     public interface ICustomerAccountService:IGenericService<CustomerAccount>
     {
+        List<CustomerAccount> TGetCustomerAccountList(int id);
     }
 }
